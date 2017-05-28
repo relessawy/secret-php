@@ -14,4 +14,18 @@ echo ":";
 echo $_ENV["LANGUAGE"];
 ?>
 </div>
+</div>
+<h1> Connection URL </h1>
+<div>
+<?php
+echo $_ENV["connectionURL"];
+?>
+</div>
+<h1> Connection URL </h1>
+<div>
+<?php
+echo $_ENV["connectionURL"];
+?>
+</div>
+
 
