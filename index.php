@@ -1,17 +1,17 @@
 <h1> Get username:password from Secret </h1>
 <div>
 <?php
-echo $_ENV["USERNAME"];
+echo $_ENV["username"];
 echo ":";
-echo $_ENV["PASSWORD"];
+echo $_ENV["password"];
 ?>
 </div>
 <h1> Get country:language from ConfigMap </h1>
 <div>
 <?php
-echo $_ENV["COUNTRY"];
+echo $_ENV["country"];
 echo ":";
-echo $_ENV["LANGUAGE"];
+echo $_ENV["language"];
 ?>
 </div>
 </div>
