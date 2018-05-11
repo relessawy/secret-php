@@ -21,6 +21,11 @@ echo $_ENV["LANGUAGE"];
 echo $_ENV["connectionURL"];
 ?>
 </div>
+<div>
+  <?php 
+ echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'] ;
+ ?>
+  </div>
 
 
 
